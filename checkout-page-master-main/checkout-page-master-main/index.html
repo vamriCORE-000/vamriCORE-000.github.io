@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Page Master</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/7736876650.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container pt-5">
+    <h1 style="color: 
+    #4E5150;
+    margin-bottom: 30px;">Checkout</h1>
+    <div class="form-container row justify-content-between">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <h5 style="color: #333333;">Contact infomation</h5>
+        <form action="#">
+          <label for="e-mail"
+            style="font-size: 12px; font-weight: bold; color: #828282; margin-bottom: 5px;">E-mail</label>
+          <div class="input-decor d-flex align-items-center mb-3">
+            <i class="fa-solid fa-envelope fa-icons-additionals"></i>
+            <input type="email" class="w-100" name="email" id="e-mail" placeholder="Enter your email...">
+          </div>
+          <label for="e-mail"
+            style="font-size: 12px; font-weight: bold; color: #828282; margin-bottom: 5px;">Phone</label>
+          <div class="input-decor d-flex align-items-center">
+            <i class="fa-solid fa-phone fa-icons-additionals"></i>
+            <input type="number" class="w-100" name="email" id="e-mail" placeholder="Enter your phone...">
+          </div>
+
+
+          <h5 style="color: #333333; margin-top: 50px;">Shipping address</h5>
+
+          <label for="Full-name" style="font-size: 12px; font-weight: bold; color: #828282; margin-bottom: 5px;">Full
+            name</label>
+          <div class="input-decor d-flex align-items-center mb-3">
+            <i class="fa-regular fa-circle-user fa-icons-additionals"></i>
+            <input type="text" class="w-100" name="full-name" id="Full-name" placeholder="Enter your name...">
+          </div>
+          <label for="Address"
+            style="font-size: 12px; font-weight: bold; color: #828282; margin-bottom: 5px;">Address</label>
+          <div class="input-decor d-flex align-items-center mb-3">
+            <i class="fa-solid fa-house fa-icons-additionals"></i>
+            <input type="text" class="w-100" name="address" id="Address" placeholder="Enter your address...">
+          </div>
+          <label for="City" style="font-size: 12px; font-weight: bold; color: #828282; margin-bottom: 5px;">City</label>
+          <div class="input-decor d-flex align-items-center">
+            <i class="fa-solid fa-city fa-icons-additionals"></i>
+            <input type="text" class="w-100" name="city" id="City" placeholder="Enter your city...">
+          </div>
+
+          <div class="d-flex mt-3">
+            <div>
+              <label for="Country"
+                style="font-size: 12px; font-weight: bold; color: #828282; margin-bottom: 5px;">Country</label>
+              <div class="input-decor d-flex align-items-center mb-3 me-3">
+                <i class="fa-solid fa-earth-americas fa-icons-additionals"></i>
+                <input type="text" class="w-100 specific-inputs" name="country" id="Country"
+                  placeholder="Enter your country...">
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
+            <div>
+              <label for="Postal Code"
+                style="font-size: 12px; font-weight: bold; color: #828282; margin-bottom: 5px;">Postal Code</label>
+              <div class="input-decor d-flex align-items-center mb-3">
+                <i class="fa-solid fa-envelopes-bulk fa-icons-additionals"></i>
+                <input type="number" class="w-100  specific-inputs" name="postal-code" id="Postal-Code"
+                  placeholder="Enter your postal code...">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="d-flex align-items-center mt-3">
+            <input id="check1" type="checkbox" name="check" value="check1">
+            <label for="check1" style="font-size: 10px; margin-left: 10px; font-weight: 600; color: #4F4F4F;">Save this
+              information for next time</label>
+          </div>
+
+          <div class="button-container text-end mt-3">
+            <button type="submit" class="continue-button">Continue</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-lg-5 col-md-5 col-sm-12" style="background-color: #F2F2F2;
+      border-radius: 15px;
+      padding: 20px;
+      height: fit-content;
+      margin-bottom: 50px;">
+        <!-- Vintage Bagpack -->
+        <div class="vintage-bagpack d-flex justify-content-evenly mb-5">
+          <img src="photo1.png" alt="" class="img-fluid width-height">
+          <div class="d-flex flex-column justify-content-between">
+            <div>
+              <p style="color: #333333;font-weight: 600;margin-bottom: 10px;" class="font-size-adjust">Vintage Backback
+              </p>
+              <p style="
+              font-weight: 600;
+              color: #F2994A;
+          " class="font-size-adjust">&dollar;54&period;99 <span style="text-decoration: line-through; color: #333333;"
+                  class="font-size-adjust">&dollar;94&period;99 </span>
+              </p>
+            </div>
+            <div style="border: 2px solid #828282; padding: 10px; border-radius: 10px;"
+              class="d-flex justify-content-between">
+              <i class="fa-solid fa-minus" style="background-color: #E0E0E0;
+    padding: 3px;
+    border-radius: 3px;
+    color: #828282;"></i>
+              <span>1</span>
+              <i class="fa-solid fa-plus" style="background-color: #E0E0E0;
+    padding: 3px;
+    border-radius: 3px;
+    color: #828282;"></i>
+            </div>
+
+          </div>
+
+        </div>
+        <!--  Levi Shoes-->
+        <div class="levi-shoes d-flex justify-content-evenly" style="margin-bottom: 100px;">
+          <img src="photo2.png" alt="" class="img-fluid width-height">
+          <div class="d-flex flex-column justify-content-between">
+            <div>
+              <p style="color: #333333;font-weight: 600;margin-bottom: 10px;" class="font-size-adjust width-adjustment">
+                Levi Shoes</p>
+              <p style="
+            font-weight: 600;
+            color: #F2994A;
+        " class="font-size-adjust">&dollar;74&period;99 <span style="text-decoration: line-through; color: #333333;"
+                  class="font-size-adjust">&dollar;124&period;99 </span>
+              </p>
+            </div>
+            <div style="border: 2px solid #828282; padding: 10px; border-radius: 10px;"
+              class="d-flex justify-content-between">
+              <i class="fa-solid fa-minus" style="background-color: #E0E0E0;
+  padding: 3px;
+  border-radius: 3px;
+  color: #828282;"></i>
+              <span>1</span>
+              <i class="fa-solid fa-plus" style="background-color: #E0E0E0;
+  padding: 3px;
+  border-radius: 3px;
+  color: #828282;"></i>
+            </div>
+
+          </div>
+
+        </div>
+        <div>
+          <div class="shipping d-flex justify-content-between pt-3" style="border-top: 2px solid #BDBDBD;">
+            <h5>Shipping</h5>
+            <span style="color: #333333; font-weight: 600"
+                  class="font-size-adjust">&dollar;19</span>
+          </div>
+
+          <div class="total d-flex justify-content-between pt-3" style="border-top: 2px solid #BDBDBD;">
+            <h5>Total</h5>
+            <span style="color: #333333; font-weight: 600"
+                  class="font-size-adjust">&dollar;145&period;98</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="mt-5">
+      <div class="footer-content text-center">
+        <p style="color: #BDBDBD; font-size: 12px;">created by <a href="#"
+            style="font-weight: 600; color: #BDBDBD;">vamriCORE-000</a> - devChallenges.io</p>
+      </div>
+    </footer>
+  </div>
+
+  <!--  -->
+  <!--  -->
+  <!--  -->
+  <!--  -->
+  <!--  -->
+  <!--  -->
+  <!--  -->
+  <!--  -->
+  <!--  -->
+  <!--  -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
