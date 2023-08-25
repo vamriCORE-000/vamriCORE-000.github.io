@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* 
+font-family: 'Heebo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.padding-left {
+  padding-left: 100px;
+}
+.width-adjustment {
+  width: 55%;
+}
+.site-giants {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 70px;
+}
+.width-lg-50-770-70 {
+  width: 50%;
+}
+.font-weight-width {
+  font-weight: 500;
+  width: 30%;
+  font-size: 36px;
+}
+input::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+.join-button {
+  border: none;
+  background-color: #2d9cdb;
+  color: #ffffff;
+  padding: 5px 25px;
+  border-radius: 10px;
+  right: 0;
+  top: 5%;
+  cursor: pointer;
+}
+.get-started-button{
+  border: none;
+  color: #989898;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.get-started-button:hover{
+  background-color: #2d9cdb;
+  color: #ffffff;
+}
+.card-addition{
+  padding: 15px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.card-addition:hover{
+  box-shadow: 0 5px 20px -5px lightgray;
+  border-radius: 15px;
+}
+.mg-top{
+  margin-top: 20% !important;
+}
+.see-more{
+  text-align: end;
+  color: #2D9CDB;
+  font-size: 18px;
+  cursor: pointer;
+}
+.team-intro{
+  font-size: 50px;
+  font-weight: 500;
+}
+.team-description{
+  font-size: 48px !important;
+  font-weight: 500;
+}
+.additional-styles{
+  width: 85%;
+  margin: auto;
+}
+.options-container{
+  flex-basis: 25%;
+}
+.title-container{
+  flex-basis: 15%;
+}
+.input-container{
+  flex-basis: 50%;
+}
+input[type=email]{
+  font-size: 12px;
+}
+
+@media (max-width: 1025px) {
+  .team-intro,
+  .team-description{
+    font-size: 40px !important;
+  }
+}
+@media (max-width: 770px) {
+  .width-adjustment {
+    width: 85%;
+  }
+  .width-lg-50-770-70 {
+    width: 70%;
+  }
+  .font-weight-width {
+    width: 50%;
+  }
+  .team-intro{
+    font-size: 35px;
+  }
+  .options-container{
+    flex-basis: 50%;
+  }
+  .title-container{
+    flex-basis: 50%;
+  }
+  .input-container{
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 430px) {
+  .padding-left {
+    padding-left: 0;
+  }
+  .width-adjustment {
+    width: 100%;
+  }
+  .site-giants {
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .p-font-size {
+    font-size: 12px;
+  }
+  .font-weight-width{
+    font-size: 32px !important;
+    width: 75% !important;
+  }
+  .see-more{
+    text-align: start;
+    margin-top: 15px !important;
+    font-size: 16px;
+  }
+  .team-intro {
+    width: 70%;
+  }
+  .team-description{
+    font-size: 35px !important;
+  }
+}
+@media (max-width: 380px) {
+  .site-giants {
+    font-size: 35px;
+    line-height: 47px;
+  }
+  .font-weight-width{
+    font-size: 27px !important;
+    width: 70% !important;
+  }
+  .team-description{
+    font-size: 30px !important;
+  }
+  .options-container{
+    flex-basis: 100%;
+  }
+  .title-container{
+    flex-basis: 100%;
+  }
+  .horizontal-padding{
+    padding: 5px 15px;
+  }
+  .team-intro {
+    width: 90%;
+}
+}
+@media (max-width: 320px) {
+  .site-giants {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .font-weight-width{
+    font-size: 24px !important;
+    width: 80% !important;
+  }
+  .team-intro {
+    font-size: 30px;
+}
+  .team-description{
+    font-size: 25px !important;
+  }
+  .horizontal-padding {
+    padding: 8px 10px;
+    font-size: 12px !important;
+}
+}
