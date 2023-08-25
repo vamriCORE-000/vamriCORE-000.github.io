@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.img-portion{
+  width: 40%;
+}
+.image-width{
+  width: 100%;
+}
+.decor {
+  margin-top: 25px;
+  margin-right: 15px;
+  border: none;
+  background-color: #2f1e16;
+  padding: 15px 30px;
+}
+.container-height{
+  height: 380px;
+}

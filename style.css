@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* 
+Colors
+#DC9579 => Right section
+#735F58 => left section
+#2F1E16 => footer section
+#ECD7D1 => color
+#F9E2D2 => color
+#E7AF9E => color
+#DE946E => decide
+#776D6A => header
+#E9E3DC => color
+#FBD8C5 => color
+#B6795D => decide
+#865039 => decide
+
+*/
+nav {
+  background-color: #2f1e16;
+  color: #ecd7d1;
+  padding: 15px 0;
+}
+.navbar {
+  text-align: center;
+}
+.main {
+  display: flex;
+  height: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ux-ui_section {
+  width: 38%;
+  text-align: center;
+}
+.frontend_section {
+  width: 40%;
+  text-align: center;
+}
+.typo {
+  font-size: 78px;
+}
+.bg-color{
+  background: linear-gradient(to right, #735F58, #DC9579);
+}
+button a{
+  text-decoration: none;
+  color: #FBD8C5;
+}
+
+@media (max-width: 768px) {
+  .typo {
+    font-size: 60px;
+  } 
+}
+@media (max-width: 430px) {
+  .main{
+    display: block;
+    height: 550px;
+  }
+  .ux-ui_section {
+    width: 100%;
+    padding: 25px 0;
+  }
+  .frontend_section {
+    width: 100%;
+    padding-top: 25px;
+  }
+  .bg-color{
+    background: linear-gradient(to bottom, #735F58, #DC9579);
+  }
+}
