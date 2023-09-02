@@ -50,6 +50,11 @@ button a{
   text-decoration: none;
   color: #FBD8C5;
 }
+.effect:hover{
+  border-radius: 10px;
+}
+
+
 
 @media (max-width: 768px) {
   .typo {
