@@ -40,6 +40,11 @@ body {
   border: none;
   background-color: #2f1e16;
   padding: 15px 30px;
+  cursor: pointer;
+  transition: border-radius 0.3s;
+}
+.decor:hover{
+  border-radius: 10px;
 }
 @media (max-width: 768px) {
   .box-settings {
